@@ -1,0 +1,63 @@
+.conteiner {
+    background:black;
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    height: 100vh;
+}
+.conteinerImg {
+    display: flex;
+}   
+.img {
+    width: 380px;
+}
+.conteinerImgChat {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+
+}
+a.button5 {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    user-select: none;
+    padding: 0 5px;
+    outline: none;
+    border-radius: 2px;
+  }
+  a.button5:before {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;  /* для больших картинок 0 */
+    padding-right: 5px;
+  }
+  a.button5[data-twitter]:before {content: url(http://favicon.yandex.net/favicon/twitter.com);}
+  a.button5[data-vk]:before {content: url(http://favicon.yandex.net/favicon/vk.com);}
+  a.button5[data-facebook]:before {content: url(http://favicon.yandex.net/favicon/facebook.com);}
+  a.button5:hover {
+    background: linear-gradient(black, blue);
+  }
+  a.button5:active {
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.1));
+    box-shadow:
+     inset rgba(0,0,0,.8) 0 1px 2px,
+     inset rgba(0,0,0,.05) 0 -1px 0,
+     #fff 0 1px 1px;
+  }
+  .footerContact {
+    display: flex;
+    justify-content: space-between;
+  }
+.link {
+    text-decoration: none;
+    color: white;
+}
+.footerLink {
+    margin-top: 30px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}

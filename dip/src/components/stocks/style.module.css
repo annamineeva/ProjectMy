@@ -1,0 +1,30 @@
+.conteiner {
+    background: linear-gradient(black, blue);
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 20px;
+    
+    color: white;
+
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    margin: 10px;
+    border: 2px solid grey;
+    padding: 5px;
+    width: 420px;
+    height: 420px;
+}
+.price {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.img {
+    width: 418px;
+    height: 265px;
+}
